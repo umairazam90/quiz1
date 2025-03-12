@@ -83,7 +83,7 @@ void main() {
         break;
       case '6':
         print('\nYour total is \$${cart.calculateTotal().toStringAsFixed(2)}');
-        print('Thank you for shopping with us!');
+        print('Thank you for shopping!');
         cart.clearCart();
         isRunning = false;
         break;
